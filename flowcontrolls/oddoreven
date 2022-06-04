@@ -1,0 +1,5 @@
+print(num if num>num2 else num2)
+
+def substract(n1,n2):
+     return n1-n2 if n1>n2 else n2-n1
+print(substract(2,56))
