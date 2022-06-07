@@ -21,6 +21,13 @@ lst=[12,23,34,45,56,67]
 lst.append(49)
 print(lst)
 
+lst=[12,23,45,667,86,456,356,6685,45,32]
+for i in range(0,len(lst)):
+    if lst[i]%2==0:
+        print(lst[i])
+
+
+
 names=["java","c++","c","python"]
 for i in range(0,len(names)):
     print(names[i])
