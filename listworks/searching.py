@@ -28,12 +28,15 @@ print(f"sum of positive numbers{p_count_sum},sum of negative numbers{n_count_sum
 
 lst=[12,23,45,667,86,456,356,6685,45,32]
 element=667
+count=1
 flag=0
 for num in lst:
     if element==num:
         flag=1
         break
+    count+=1
 print("element found" if flag==1 else "element not found")
+print(count)
 lst=[12,23,45,667,86,456,356,6685,45,32]
 element=667
 flag=0
