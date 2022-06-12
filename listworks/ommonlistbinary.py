@@ -24,3 +24,4 @@ print(sorted(arr))
 ar=sorted(arr,reverse=True)
 print(ar)
 print(max(arr))
+
